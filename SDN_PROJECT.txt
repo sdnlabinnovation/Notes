@@ -1,0 +1,11 @@
+SDN PROJECT RUN COMMANDS
+========================
+
+Before running the project clear the following files
+
+1.  C:\Users\Public\Documents\file2\GetMonitorStats\src\MonitorStats\data2.txt
+2.  C:\Users\Public\Documents\file2\GetMonitorStats\src\MonitorStats\dataCurr.txt
+
+#Eclipse-GetMonitorStats--StatsCollector.java-run->JavaApplication
+#Eclipse->AutomaticTrafficShapingGUI--Home.jsp-run->Run on Server
+#Eclipse->GraphicalTrafficAnalyser--Home.jsp-run->Run on Server(for the graph)
