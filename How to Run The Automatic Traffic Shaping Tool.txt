@@ -5,10 +5,11 @@ AUTO_SHAPER : <Installation Directory of Auto_Shaper tool>
 AutomaticTrafficShapingGUI.war
 GraphicalTrafficAnalyser.war
 
-#Ensure that MonitoringTool is not running already
-Start task manager and kill all processes named Java(TM) Platform SE binary
 
-#Double click on MonitoringTool.jar to start the application
+#To run MonitoringTool.jar
+Command prompt -> Navigate to the installation directory of the tool
+java -jar MonitoringTool.jar
+
 
 #start Tomcat
 Go to tomcat's bin dir -> startup.bat
@@ -22,7 +23,7 @@ http://localhost:8080/AutomaticTrafficShapingGUI/Home.jsp
 Start task manager and kill all processes named Java(TM) Platform SE binary
 
 #Stop Tomcat
-Go to tomcat's bin dir -> startup.bat
+Go to tomcat's bin dir -> shutdown.bat
 
 Notes:
 Ensure that JAVA_HOME environment variable is set to directory of java 1.8
