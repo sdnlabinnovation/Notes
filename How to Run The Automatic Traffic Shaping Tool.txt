@@ -22,7 +22,7 @@ http://localhost:8080/AutomaticTrafficShapingGUI/Home.jsp
 Start task manager and kill all processes named Java(TM) Platform SE binary
 
 #Stop Tomcat
-Go to tomcat's bin dir -> startup.bat
+Go to tomcat's bin dir -> shutdown.bat
 
 Notes:
 Ensure that JAVA_HOME environment variable is set to directory of java 1.8
